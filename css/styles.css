@@ -60,3 +60,21 @@ body.loaded {
 .custom-border {
   border-bottom: 2px solid;
 }
+
+.job > h3{
+  border-bottom: 1.5px solid;
+}
+
+.education > h3{
+  border-bottom: 1.5px solid;
+}
+
+.divider {
+  width: 2.5px;
+  background-color: #fff;
+  height: auto;
+}
+
+.ref-list > li > p{
+  margin-bottom: 0;
+}
