@@ -9,7 +9,7 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 - **About Me Section**: Learn more about my journey, passions, and goals in software development.
 - **Projects Showcase**: A detailed display of my development projects, skills and technical expertise.
 - **Contact Information**: Easy access to connect with me through email or social platforms.
-- **Interactive Design**: Smooth scrolling
+- **Interactive Design**: Smooth scrolling, fade-in design.
 - **Responsive Layout**: Optimized for all devices using Bootstrap for a seamless experience.
 
 ---
