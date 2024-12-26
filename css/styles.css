@@ -78,3 +78,7 @@ body.loaded {
 .ref-list > li > p{
   margin-bottom: 0;
 }
+
+.border-primary-subtle{
+  border-color: #4020a9;
+}
