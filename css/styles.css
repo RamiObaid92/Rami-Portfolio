@@ -61,11 +61,11 @@ body.loaded {
   border-bottom: 2px solid;
 }
 
-.job > h3{
+.job > h3 {
   border-bottom: 1.5px solid;
 }
 
-.education > h3{
+.education > h3 {
   border-bottom: 1.5px solid;
 }
 
@@ -75,10 +75,12 @@ body.loaded {
   height: auto;
 }
 
-.ref-list > li > p{
-  margin-bottom: 0;
+.divider-contact {
+  width: 2.5px;
+  background-color: #4020a9;
+  height: auto;
 }
 
-.border-primary-subtle{
-  border-color: #4020a9;
+.ref-list > li > p {
+  margin-bottom: 0;
 }
