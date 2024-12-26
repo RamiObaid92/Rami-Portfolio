@@ -9,6 +9,10 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,28 +24,192 @@
   </head>
 
   <body>
-    <header>
-      <nav class="nav fs-4 py-4 justify-content-center">
-        <a class="nav-link" href="#about">Om mig</a>
-        <a class="nav-link" href="#experience">Erfarenhet</a>
-        <a class="nav-link" href="#project">Projekt</a>
-        <a class="nav-link" href="#contact">Kontakt</a>
+    <header class="d-flex align-items-center px-5 bg-white fixed-top">
+      <nav class="navbar navbar-expand-lg w-100">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler bg-dotnet bg-gradient navbar-dark ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto fs-4 gap-4">
+              <li><a class="nav-link" href="#about">About</a></li>
+              <li><a class="nav-link" href="#experience">Experience</a></li>
+              <li><a class="nav-link" href="#project">Projects</a></li>
+              <li><a class="nav-link" href="#reference">References</a></li>
+              <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
+      <div class="resume position-absolute start-0 ps-4">
+        <button type="button" class="btn btn-primary bg-gradient shadow">
+          Download Resume
+        </button>
+      </div>
+      <div
+        class="d-none d-lg-flex justify-content-center position-absolute end-0 pe-4 gap-3 fs-3"
+      >
+        <a href="https://x.com/nerfmeh1" class="text-dotnet" target="_blank">
+          <i class="bi bi-twitter-x"></i>
+        </a>
+        <a
+          href="https://github.com/RamiObaid92"
+          class="text-dotnet"
+          target="_blank"
+        >
+          <i class="bi bi-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/rami-obaid-102594338/"
+          class="text-dotnet"
+          target="_blank"
+        >
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </div>
     </header>
 
     <main>
-      <section id="hero"></section>
+      <section id="hero">
+        <div
+          class="d-flex flex-column flex-lg-row rounded container-fluid bg-dotnet bg-gradient text-light shadow align-items-center"
+        >
+          <div class="container text-center">
+            <h1 class="display-4 fw-semibold">Welcome to my Webb Portfolio</h1>
+          </div>
+          <img src="./Assets/dotnet-logo.png" class="img-fluid" alt="logo" />
+          <div class="container text-center">
+            <p class="display-4 fw-semibold">I'm a developer within .NET</p>
+            <p class="display-6 fw-semibold">
+              Explore my projects and professional experiences
+            </p>
+          </div>
+        </div>
+      </section>
 
-      <section id="about"></section>
+      <section id="about" class="hidden sm-t">
+        <div class="container d-flex align-items-center text-dotnet">
+          <div class="flex-grow-1 custom-border"></div>
+          <h2 class="mx-3 text-center"><span class="px-3">About me</span></h2>
+          <div class="flex-grow-1 custom-border"></div>
+        </div>
+        <div
+          class="d-flex flex-column flex-lg-row rounded container bg-dotnet bg-gradient my-5 py-5 text-light hidden"
+        >
+          <div class="container fw-light">
+            <p class="fs-5 mb-4">
+              Hi, I'm Rami Obaid, a curious and enthusiastic learner based in
+              Stockholm, Sweden. My journey into software development started
+              with a simple yet persistent question: "How does it all work
+              behind the scenes?" Spending most of my life around computers, I
+              couldn't resist diving into the world of technology to find out.
+            </p>
+            <p class="fs-5 mb-4">
+              Right now, I'm focused on mastering .NET and backend development,
+              honing my skills to build efficient and scalable solutions. My
+              goal is to contribute to meaningful projects that solve real-world
+              problems while continuously growing as a developer.
+            </p>
+            <p class="fs-5">
+              When I'm not coding or exploring new technologies, you'll likely
+              find me enjoying a good game as an avid gamer or recharging in the
+              beauty of nature. Whether it's through code, gaming, or exploring
+              the great outdoors, I'm always looking for the next adventure!
+            </p>
+          </div>
+          <div
+            class="container d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="./Assets/anonymous-pic.jpg"
+              class="img-fluid rounded"
+              alt="anon-profile"
+            />
+          </div>
+        </div>
+      </section>
 
-      <section id="experience"></section>
+      <section id="experience" class="hidden sm-t">
+        <div class="container d-flex align-items-center text-dotnet">
+          <div class="flex-grow-1 custom-border"></div>
+          <h2 class="mx-3 text-center"><span class="px-3">Experience</span></h2>
+          <div class="flex-grow-1 custom-border"></div>
+        </div>
+      </section>
 
-      <section id="project"></section>
+      <section id="project" class="hidden sm-t">
+        <div class="container d-flex align-items-center text-dotnet">
+          <div class="flex-grow-1 custom-border"></div>
+          <h2 class="mx-3 text-center"><span class="px-3">Projects</span></h2>
+          <div class="flex-grow-1 custom-border"></div>
+        </div>
+      </section>
 
-      <section id="contact"></section>
+      <section id="reference" class="hidden sm-t">
+        <div class="container d-flex align-items-center text-dotnet">
+          <div class="flex-grow-1 custom-border"></div>
+          <h2 class="mx-3 text-center"><span class="px-3">References</span></h2>
+          <div class="flex-grow-1 custom-border"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="hidden sm-t">
+        <div class="container d-flex align-items-center text-dotnet">
+          <div class="flex-grow-1 custom-border"></div>
+          <h2 class="mx-3 text-center"><span class="px-3">Contact</span></h2>
+          <div class="flex-grow-1 custom-border"></div>
+        </div>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer class="bg-dotnet bg-gradient py-4 mt-5">
+      <div class="container text-light">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 text-center">
+            <p class="fs-4 text-decoration-underline">Contact</p>
+            <ul class="list-unstyled">
+              <li>
+                Email:
+                <a href="mailto:rami.obaid@yh.nackademin.se" class="text-light"
+                  >Rami.Obaid@yh.nackademin.se</a
+                >
+              </li>
+              <li>
+                Phone:
+                <a href="tel:+123456789" class="text-light">+123456789</a>
+              </li>
+              <li>Location: Stockholm, Sweden</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6 col-md-12 text-center">
+            <p class="fs-4 text-decoration-underline">Socials</p>
+            <div class="d-flex gap-3 justify-content-center">
+              <a href="https://x.com/nerfmeh1" class="text-light fs-3"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a href="https://github.com/RamiObaid92" class="text-light fs-3"
+                ><i class="bi bi-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/rami-obaid-102594338/"
+                class="text-light fs-3"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
