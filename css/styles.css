@@ -84,3 +84,13 @@ body.loaded {
 .ref-list > li > p {
   margin-bottom: 0;
 }
+
+.cityInput{
+  padding-top: 4px;
+  padding-bottom: 7px;
+  border-color: lightblue;
+}
+
+.card{
+  width: 20rem;
+}

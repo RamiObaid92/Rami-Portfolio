@@ -218,7 +218,28 @@
           <div class="flex-grow-1 custom-border"></div>
         </div>
 
-        <div></div>
+        <div
+          class="d-flex row container justify-content-center mx-auto my-5 py-5 text-dotnet hidden">
+          <div class="border">
+            <h3 class="feat-proj text-center custom-border pb-4 mb-5">
+              Featured Project
+            </h3>
+          </div>
+          <div class="card text-center shadow-lg bg-info bg-gradient py-5">
+            <h2 class="city">Stockholm</h2>
+            <p class="temp fs-3">30°C</p>
+            <p class="humidity fs-3">Humidity: 40%</p>
+            <p class="weather-desc fs-3 fst-italic">Clear Skies</p>
+            <p class="weather-emoji fs-1">☀️</p>
+            <form>
+              <input
+                type="text"
+                class="cityInput rounded border-1"
+                placeholder="Enter City..." />
+              <button type="submit" class="btn btn-light p-1">Search</button>
+            </form>
+          </div>
+        </div>
       </section>
 
       <section id="contact" class="hidden sm-t">
@@ -228,7 +249,8 @@
           <div class="flex-grow-1 custom-border"></div>
         </div>
 
-        <div class="form-cont container d-flex flex-column flex-lg-row py-5 my-4 text-dotnet">
+        <div
+          class="form-cont container d-flex flex-column flex-lg-row py-5 my-4 text-dotnet">
           <div class="container px-5 text-center">
             <h4 class="text-decoration-underline">Contact me</h4>
             <ul class="list-unstyled">
@@ -282,7 +304,7 @@
                   required></textarea>
               </div>
 
-              <button type="submit" class="btn btn-primary my-3">
+              <button type="submit" class="btn btn-primary bg-gradient my-3">
                 Send Message
               </button>
             </form>
