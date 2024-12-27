@@ -92,9 +92,7 @@ body.loaded {
 }
 
 .card{
-  width: 20rem;
-}
-
-.card{
+  width: 22rem;
+  background-color:#26a7c79c;
   box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
 }
