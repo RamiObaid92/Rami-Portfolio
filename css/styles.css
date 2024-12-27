@@ -94,5 +94,9 @@ body.loaded {
 .card{
   width: 22rem;
   background-color:#26a7c79c;
-  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+  box-shadow: 2px 4px 7px hsla(0, 0%, 0%, 0.7);
+}
+
+.cityInput:focus{
+  outline: none;
 }

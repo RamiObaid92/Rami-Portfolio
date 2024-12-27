@@ -219,25 +219,23 @@
         </div>
 
         <div
-          class="d-flex row container justify-content-center mx-auto my-5 py-5 text-dotnet hidden">
-          <div class="">
-            <h3 class="feat-proj text-center pb-4 mb-5">
-              Featured Project
-            </h3>
+          class="d-flex border row container justify-content-center mx-auto my-5 py-5 text-dotnet hidden">
+          <div>
+            <h3 class="feat-proj text-center pb-4 mb-5">Featured Project - Weather App</h3>
           </div>
           <div class="card text-center bg-gradient py-5">
-            <h2 class="city">Stockholm</h2>
-            <p class="temp fs-3">30°C</p>
-            <p class="humidity fs-3">Humidity: 40%</p>
-            <p class="weather-desc fs-3 fst-italic">Clear Skies</p>
-            <p class="weather-emoji fs-1">☀️</p>
-            <form class="mt-4">
+            <form class="weatherForm mt-4">
               <input
                 type="text"
                 class="cityInput rounded border-1"
-                placeholder="Enter City..." />
+                placeholder="Enter City..."
+                required />
               <button type="submit" class="btn btn-light p-1">Search</button>
             </form>
+          </div>
+          <div class="container border mt-5">
+            <h3 class="text-center border-bottom">Other Projects</h3>
+
           </div>
         </div>
       </section>
@@ -298,12 +296,11 @@
                 <textarea
                   name="message"
                   id="message"
-                  rows="{7}"
+                  rows="7"
                   placeholder="Write your message..."
                   class="form-control"
                   required></textarea>
               </div>
-
               <button type="submit" class="btn btn-primary bg-gradient my-3">
                 Send Message
               </button>
@@ -335,7 +332,7 @@
 
           <div class="col-lg-6 col-md-12 text-center">
             <p class="fs-4 text-decoration-underline">Socials</p>
-            <div class="d-flex gap-3 justify-content-center">
+            <div class="d-flex gap-3 mt-4 justify-content-center">
               <a
                 href="https://x.com/nerfmeh1"
                 class="text-light fs-3"
@@ -357,7 +354,7 @@
             </div>
           </div>
         </div>
-        <div class="text-center mt-5">
+        <div class="text-center my-4">
           <small class="text-white-75"
             >&copy; Copyright by Rami. All rights reserved.</small
           >
@@ -369,5 +366,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/weatherApp.js"></script>
   </body>
 </html>
