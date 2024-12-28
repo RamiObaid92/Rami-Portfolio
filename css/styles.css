@@ -61,11 +61,11 @@ body.loaded {
   border-bottom: 2px solid;
 }
 
-.job > h3{
+.job > h3 {
   border-bottom: 1.5px solid;
 }
 
-.education > h3{
+.education > h3 {
   border-bottom: 1.5px solid;
 }
 
@@ -75,6 +75,28 @@ body.loaded {
   height: auto;
 }
 
-.ref-list > li > p{
+.divider-purp {
+  width: 2.5px;
+  background-color: #4020a9;
+  height: auto;
+}
+
+.ref-list > li > p {
   margin-bottom: 0;
+}
+
+.cityInput{
+  padding-top: 4px;
+  padding-bottom: 7px;
+  border-color: lightblue;
+}
+
+.card{
+  width: 22rem;
+  background: linear-gradient(135deg, #4020a9, #6b52c8, #ff8eeb);
+  box-shadow: 2px 4px 7px hsla(0, 0%, 0%, 0.7);
+}
+
+.cityInput:focus{
+  outline: none;
 }
