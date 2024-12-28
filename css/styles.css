@@ -75,7 +75,7 @@ body.loaded {
   height: auto;
 }
 
-.divider-contact {
+.divider-purp {
   width: 2.5px;
   background-color: #4020a9;
   height: auto;
@@ -93,7 +93,7 @@ body.loaded {
 
 .card{
   width: 22rem;
-  background-color:#26a7c79c;
+  background: linear-gradient(135deg, #4020a9, #6b52c8, #ff8eeb);
   box-shadow: 2px 4px 7px hsla(0, 0%, 0%, 0.7);
 }
 

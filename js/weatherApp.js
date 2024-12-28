@@ -61,7 +61,7 @@ function updateCard(weatherData) {
     .replace(/(^\w|\s\w)/g, (m) => m.toUpperCase());
 
   const weatherEmoji = document.createElement("p");
-  weatherEmoji.classList.add("weather-emoji", "fs-1");
+  weatherEmoji.classList.add("weather-emoji", "display-3");
   weatherEmoji.textContent = getWeatherEmoji(weatherData.weather[0].main);
 
   card.replaceChildren(
@@ -83,12 +83,13 @@ function getWeatherEmoji(weather) {
     Thunderstorm: "⛈️",
     Drizzle: "🌦️",
     Fog: "🌫️",
+    Mist: "🌫️",
   };
   return weatherIcons[weather];
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
-  const defaultCity = "Stockholm"; // Förvald stad
+  const defaultCity = "Stockholm";
 
   try {
     const weatherData = await fetchWeather(defaultCity);
